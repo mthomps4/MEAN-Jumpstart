@@ -52,3 +52,23 @@ How we specify the dependencies that Angular component will need.
 Templates
 Angularized HTML we're creating
 Pre Views
+
+
+
+#NODE & EXPRESS
+--Express
+Provides Higher-level "routing" over the raw http server
+Interact with HTTP requests and responses easily with api's
+Minimalistic, fast, unopinionated
+
+Used Express Generator to set up initial file structure.
+
+express --ejs <directory name>
+
+#PASSPORT
+-User Authentication from NPM
+
+npm install passport (User Auth)
+npm install passport-local (required for local authentication schema)
+npm install bcrypt-nodejs (For Password Hashes when used in our own database)
+npm install express-session --save
