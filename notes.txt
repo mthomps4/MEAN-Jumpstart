@@ -1,0 +1,54 @@
+Angular Setup - is an MVC Framework. You use it to structure out your application
+looks (View) from your data (Model) and the logic and functions that are
+executed (controller). Really Test Driven
+
+Directives: Placing HTML code in.
+
+Modules: Application Containers
+
+Controllers: Application Logic
+
+Models and Data Binding: Displaying to Users the data
+
+Routing: SP Application Routing
+
+Other "Frameworks"
+
+React.JS - Calls themselves the "V" in MVC. Handles the View. Performance and Lightweight.
+Ember.JS - More Ruby/Rails
+Backbone.JS - more minimal does not have data binding by default (Add Library)
+Angular - Has 2 way data binding.
+
+--
+#Directives
+
+Angular-only HTML attributes
+Attaches some behavior to element
+data-ng or ng-
+
+--
+#Models and Controllers
+Module - A contaner for your application
+var myModule = angular.module('myApp',[]);
+
+Controllers - Business Logic for application
+Sets up your data to be viewed in your HTML
+myModule.controller('myController',function($scope){});
+
+$scope - links controller to view (what user sees)
+Created through injectable parameters in controller
+Configured within controller logic
+Contains models for data
+
+Displaying and Binding Data
+Display using {{}}
+Bind data using directives -
+ng-model for twoway binding - User Input
+ng-bind for one way binding - Displaying data
+
+Dependency Injection
+How we specify the dependencies that Angular component will need.
+
+Templates
+Angularized HTML we're creating
+Pre Views
